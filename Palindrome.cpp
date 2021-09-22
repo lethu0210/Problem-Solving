@@ -28,6 +28,9 @@ bool checkSub(int i, int j)
  {
      string s;
      cin >> s;
+    int n;
+    cin >> n;
+    cout << n;
      cout << s << endl;
      return 0;
  }
