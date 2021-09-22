@@ -28,6 +28,9 @@ bool checkSub(int i, int j)
  {
      string s;
      cin >> s;
+    int n;
+    cin >> n;
+    cout << n;
      checkPalind(s);
      int n = s.size()-1;
      cout << checkSub(0,n);
